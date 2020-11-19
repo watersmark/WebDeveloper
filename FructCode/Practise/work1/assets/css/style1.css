@@ -1,0 +1,14 @@
+.logo{
+
+	background-color: green;
+	width: 800px;
+	margin-top: 20px;
+	padding: 20px;
+
+}
+
+.logo_text h1 a{
+	color: white;
+	letter-spacing: 0.9em;
+	text-decoration: none;
+}

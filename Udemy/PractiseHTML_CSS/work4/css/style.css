@@ -1,16 +1,52 @@
-.div1{
-    color: #00ab32;
-    width: 50%;
+*{
+    margin: 0px;
 }
 
-.div2{
-    color: rgb(231, 145, 89);
-    font-size: 25px;
-    width: 50%;
-    height: 10em;
+.main1{
+    background-color: red;
+    width: 40%;
+    height: 400px;
+    display: inline-block;
 }
 
-.section2 {
-    color: rgba(231, 178, 190, 0.7);
-    width: 80%;
+.main2{
+    width: 50%;
+    height: 400px;
+    background-color: green;
+    display: inline-block;
+}
+
+.first1{
+    background-color: blue;
+    width: 50%;
+    height: 50%;
+    margin: 0px auto 0px 25%;
+    display: inline-block;
+}
+
+.first2{
+    background-color: black;
+    width: 60%;
+    height: 50%;
+    display: inline-block;
+}
+
+.second1{
+    background-color: purple;
+    width: 60%;
+    height: 50%;
+    display: inline-block;
+}
+
+.second2{
+    background-color: sandybrown;
+    width: 30%;
+    height: 50%;
+    display: inline-block;
+}
+
+.first1 > p{
+
+    text-align: center;
+    color: hsl(106, 81%, 38%)
 }

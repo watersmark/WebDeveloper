@@ -3,9 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/css/style.css">
     <title>Strawberry</title>
 </head>
 <body>
+        <div class="wrap">
 
+            <!-- Общий блок для карточки -->
+            <div class="cart">
+                
+                <!-- Картинка продукта -->
+                <div class="car_image">
+                    <img src="../assets/img/strawberry.jpg" alt="strawberry">
+                </div>
+
+                <!-- Описание к  продукту снизу -->
+                <div class="cart_content">
+                    <div class="cart_title">
+                        Strawberry
+                    </div>
+
+                    <div class="cart_cost">
+                        cost: <span>50_000</span> руб
+                    </div>
+                    
+                    <!-- Форма оплаты товара -->
+                    <form action="#">
+                        <label for="cart_amount">number</label>
+                        <input type="number" class="cart_amount" min="1" max="100" value="1">
+
+                        <label for="cart_btn">buy</label>
+                        <input type="submit" class="cart_btn" value="купить">
+                    </form>
+                    
+                </div>
+            </div>
+        </div>
 </body>
 </html>

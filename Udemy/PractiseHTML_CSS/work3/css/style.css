@@ -1,0 +1,20 @@
+.div1{
+    font-family: 'Big+Shoulders+Stencil+Display', sans-serif;
+    font-weight: 600;
+    font-size: 45px;
+    /* font-style: italic; */
+
+}
+
+/* /* .div2{
+    font-family: 'Big+Shoulders+Stencil+Display', sans-serif;
+    font-weight: 400;
+} */
+
+.div3{
+    font-family: 'Xanh Mono', monospace;
+    font-weight: 400;  
+    font-size: 45px;
+    letter-spacing: 10px;
+    line-height: 0%;
+} 

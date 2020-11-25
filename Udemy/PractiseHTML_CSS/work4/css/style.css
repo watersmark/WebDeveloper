@@ -1,0 +1,16 @@
+.div1{
+    color: #00ab32;
+    width: 50%;
+}
+
+.div2{
+    color: rgb(231, 145, 89);
+    font-size: 25px;
+    width: 50%;
+    height: 10em;
+}
+
+.section2 {
+    color: rgba(231, 178, 190, 0.7);
+    width: 80%;
+}

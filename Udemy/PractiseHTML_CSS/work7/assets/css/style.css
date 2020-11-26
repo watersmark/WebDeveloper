@@ -1,0 +1,31 @@
+
+*{
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+.mains{
+    width: auto;
+    height: 50vh;
+    background-color: darkcyan;
+    padding-top: 50px;
+}
+
+.step1{
+    margin-left: 30%;
+    padding-top: 50px;
+
+    width: 30%;
+    height: 30vh;
+    background-color: darkgoldenrod;
+
+}
+
+.step2{
+    margin-left: 50%;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+
+    transform: scale(1.2) translate(30px) skew(20deg)
+}

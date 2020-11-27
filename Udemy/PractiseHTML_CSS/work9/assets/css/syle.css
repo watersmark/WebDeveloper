@@ -1,0 +1,139 @@
+*{
+    margin: 0%;
+    box-sizing: border-box;
+    outline: none;
+    transition: all 0.5s linear;
+}
+
+body{
+    position: relative;
+    background-color: #fdd816;
+    width: 100%;
+    height: 100%;
+}
+
+
+.form1{
+    width: 100%;
+    height: 10vh;
+    background-color: bisque;
+}
+
+.head_sait{
+    position: fixed;
+    width: 100%;
+    height: 10vh;
+    background-color: #e5194a;
+}
+
+.menu_sait{
+    float: right;
+    width: 100%;
+    margin-top: 30px;
+    
+}
+
+.menu_position li {
+    float: left;
+    margin-left: 15%;
+     
+
+    color: black;
+    font-size: 30px;
+    border: 2px grey solid;
+    border-radius: 10px;
+
+    box-shadow: 20px 20px 70px 2px whitesmoke;
+    list-style-type: none;    
+}
+
+.main_class{
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+
+.section_body_first{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+    width: auto;
+    /* background-color: green; */
+}
+
+
+.footers{
+    position: fixed;
+    width: 100%;
+    height: 10%;
+    top: 90%;
+    background-color: #212a31;
+}
+
+.test2 a{
+    width: 200px;
+    color: red;
+}
+
+.youtube{
+    width: 300px;
+    height: 420px;
+    border: 3px #e5194a solid;
+    border-radius: 10px;
+    
+}
+
+.img_youtube{
+    padding-left: 8%;
+    padding-top: 5%;
+}
+
+.text_youtube{
+    transform: translate(1px);
+    margin-top: 10px;
+    border: 2px  #e5194a solid;
+    border-radius: 10px;
+}
+
+.buy_action{
+    margin-top: 10px;
+}
+
+.text_action{
+    padding: 3px;
+    font-size: 15px;
+    border: 2px #e5194a solid;
+    border-radius: 10px;
+}
+
+.number_buy{
+    font-size: 15px;
+    border: 2px #e5194a solid;
+    border-radius: 10px;
+}
+
+.buy{
+    margin-top: 5px;
+    margin-left: 40%;
+    padding: 10px;
+    border: 2px #e5194a solid;
+    border-radius: 20%;
+    font-size: 20px;
+}
+
+/*  Методы для псевдоклассов */
+.menu_position li:hover{
+    color: wheat;
+}
+
+.menu_position li:active{
+    transform: scale(1.5);
+}
+
+.text_youtube:hover{
+    z-index: 1;
+    color: green;
+    transform: scale(1.8);
+}
+

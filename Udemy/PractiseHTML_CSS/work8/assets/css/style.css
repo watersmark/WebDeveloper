@@ -1,0 +1,46 @@
+*{
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+.mains{
+    width: auto;
+    height: 500px;
+    background-color: green;
+    padding-top: 150px;
+}
+
+.square{
+    width: 200px;
+    height: 200px;
+    background-color: purple;
+    margin-left: 40%;
+    animation: rotate 2s infinite linear;
+
+}
+
+.line{
+    width: 500px;
+    height: 10px;
+    background-color: yellow;
+    margin-left: 32%;
+    margin-top: 40px;
+}
+
+@keyframes rotate{
+    from{
+        transform: rotate(0deg)
+    }
+    25%{
+        transform: rotate(90deg);
+    }
+    50%{
+        transform: rotate(180deg);
+    }
+    75%{
+        transform: rotate(270deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
